@@ -6,3 +6,4 @@ Creating a new branch is quick#快速创建一个新分支
 冲突测试..
 测试no-ff
 修改bug
+stash
