@@ -3,8 +3,3 @@ git is free software distributed under the GPL.#git是根据GPL分发的免费�
 Git has a mutable index calledd stage #git 有一个stage的可变索引，（暂缓区）
 git tracks changes。#git跟踪变化
 Creating a new branch is quick#快速创建一个新分支
-<<<<<<< HEAD
-Creating a new branch is quick & simple.#创建新分支快速而又简单
-=======
-Creating a new branch is quick AND simple.#创建新分支快速而简单
->>>>>>> get
