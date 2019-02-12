@@ -1,9 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 '''
-覆盖配置
+Override configurations.
 '''
 
+__author__ = 'Michael Liao'
+
 configs = {
-	'db' :{
-		'host':'192.168.0.100'
-	}
+    'db': {
+        'host': '127.0.0.1'
+    }
 }
