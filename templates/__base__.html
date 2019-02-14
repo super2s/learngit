@@ -27,7 +27,7 @@
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/sha1.min.js"></script>
     <script src="/static/js/uikit.min.js"></script>
-    <script src="/static/js/stick.min.js"></script>
+    <script src="/static/js/sticky.min.js"></script>
     <script src="/static/js/vue.min.js"></script>
     <script src="/static/js/awesome.js"></script>
 	{% block beforehead %}<!-- before head -->{% endblock %}
@@ -38,15 +38,14 @@
 			<a href="/" class="uk-navbar-brand">Awesome</a>
 			<ul class="uk-navbar-nav">
 				<li data-url="blogs"><a href="/"><i class="uk-icon-home"></i>日志</a></li>
-				<li><a target="_blank" href="#"><i class="uk-icon-book"></i>教程</a></li>
-				<li><a target="_blank" href="#"><i class="uk-icon-code"></i>源码</a></li>
+				<li><a target="_blank" href="https://github.com/super2s/-Git"><i class="uk-icon-code"></i>源码</a></li>
 			</ul>
 			<div class="uk-navbar-flip">
 				<ul class="uk-navbar-nav">
 				{% if __user__ %}
 					<li class="uk-parent" data-uk-dropdown>
-						<a href="#0"><i class="uk-icon-user"></i>{{ user.name }}</a>
-						<div class="uk-dropdown  uk-dropdown-navbar"
+						<a href="#0"><i class="uk-icon-user"></i>{{ __user__.name }}</a>
+						<div class="uk-dropdown  uk-dropdown-navbar"></div>
 							<ul class="uk-nav uk-nav-navbar">
 								<li><a href="/signout"><i class="uk-icon-sign-out"></i>登出</a></li>
 							</ul>
